@@ -1,4 +1,6 @@
 mod haldocs;
+mod haldoc;
+mod halerror;
 
 pub fn add(left: u64, right: u64) -> u64 {
     left + right
